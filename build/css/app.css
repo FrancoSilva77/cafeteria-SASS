@@ -343,10 +343,21 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 h1,
 h2,
 h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   margin: 0 0 5rem 0;
   text-transform: uppercase;
   text-align: center;
@@ -494,4 +505,26 @@ h3 {
     margin-top: -5rem;
     position: relative;
   }
+}
+
+.iconos {
+  margin-top: 5rem;
+}
+@media (min-width: 768px) {
+  .iconos .listado-iconos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    -webkit-column-gap: 5rem;
+       -moz-column-gap: 5rem;
+            column-gap: 5rem;
+  }
+}
+.iconos .listado-iconos li img {
+  margin: 0 auto;
+  width: 12rem;
+}
+.iconos .listado-iconos li p {
+  font-family: "Bona Nova", serif;
+  font-size: 3.2rem;
+  color: #5e311e;
 }

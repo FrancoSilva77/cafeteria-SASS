@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: v.$fuente_principal;
+  font-family: v.$fuente_secundaria;
   font-size: 1.6rem;
   background-color: v.$cafeClaro;
 }
@@ -32,4 +32,15 @@ p {
 a {
   text-decoration: none;
   // display: block;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
